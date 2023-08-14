@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {},
+    colors:{
+      homePageColor: "rgb(26, 30, 59)"
+    }
   },
   plugins: [],
 }
