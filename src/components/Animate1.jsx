@@ -14,7 +14,7 @@ function HomeAnimation() {
       <Lottie
         animationData={animationData}
         loop={true}
-        style={{ width: '300px', height: '300px' }}
+        style={{ width: '500px', height: '500px' }}
         lottieRef={lottieRef}
       />
     </div>

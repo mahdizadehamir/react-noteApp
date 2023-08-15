@@ -4,7 +4,7 @@ function NavAnimation({ children }) {
   const navRef = useRef(null);
   const isInView = useInView(navRef, { once: true });
   return (
-    <section ref={navRef}>
+    <section className='Navbar' ref={navRef}>
       <div
         style={{
           transform: isInView ? 'none' : 'translateY(-200px)',
