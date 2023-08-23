@@ -10,12 +10,14 @@ function HomeAnimation() {
     }
   }, [lottieRef]);
   return (
-    <Lottie
-      animationData={animationData}
-      loop={true}
-      style={{ display: 'block', width: '500px', height: '500px' }}
-      lottieRef={lottieRef}
-    />
+    <div>
+      <Lottie
+        animationData={animationData}
+        loop={true}
+        style={{ width: '500px', height: '500px' }}
+        lottieRef={lottieRef}
+      />
+    </div>
   );
 }
 

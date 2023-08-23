@@ -6,9 +6,9 @@ function HomePage() {
   return (
     <>
       <Navbar />
-      <section className=" mx-auto grid grid-cols-2 justify-center items-center">
-        <HomeAnimation />
-        <HomeContainer />
+      <section className=" mx-auto flex flex-row justify-around mt-20">
+        <HomeContainer className="order-2" />
+        <HomeAnimation  className="order-1"/>
       </section>
     </>
   );
